@@ -18,15 +18,15 @@ title: Commands
 - **`!join`** - Summons the bot to the voice channel you are in.
     - **Aliases:** `summon`
 ---
-- **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
+- **`-play`** - Plays a song with the given name or url. [**More Info**](/play_song)
     - **Usage:** `!play <link/query>`
     - **Alias:** `p`
 ---
-- **`!playtop`** - Adds a song with the given name/url __on the top of the queue__.
+- **`-stop`** - Adds a song with the given name/url __on the top of the queue__.
     - **Usage:** `!playtop <link/query>`
     - **Aliases:** `pt`, `ptop`
 ---
-- **`!playskip`** - Skips the current song and plays the song you requested.
+- **`!next`** - Skips the current song and plays the song you requested.
     - **Usage:** `!playskip <link/query>`
     - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
 ---
@@ -55,7 +55,7 @@ title: Commands
     - **Usage:** `!forward <time>`
     - **Alias:** `fwd`
 ---
-- **`!replay`** - Resets the progress of the current song.
+- **'-replay'** - Restablece el progreso de la canción actual.
 ---
 - **`!loop`** - Toggles looping for the current playing song.
     - **Alias:** `repeat`
@@ -68,17 +68,17 @@ title: Commands
     - **Aliases:** `fs`, `fskip`
     - **Note:** `DJ` role/`Manage Channels` permission required.
 ---
-- **`!pause`** - Pauses the current playing track.
+- **'-pausa'** - Pausa la pista de reproducción actual.
     - **Alias:** `stop`
 ---
-- **`!resume`** - Resumes paused music.
+- **'-reanudar'** - Reanuda la música en pausa.
     - **Aliases:** `re`, `res`, `continue`
 ---
-- **`!lyrics`** - Gets the lyrics of the current playing song.
+- **'-letra'** - Obtiene la letra de la canción actual.
     - **Other Usage:** `!lyrics <song name>` - Gets the lyrics of the mentioned song.
     - **Aliases:** `l`, `ly`
 ---
-- **`!disconnect`** - Disconnects the bot from the voice channel it is in.
+- **'-desconectar'** - Desconecta el bot del canal de voz en el que se encuentr.
     - **Aliases:** `dc`, `leave`, `dis`
 ---
 
